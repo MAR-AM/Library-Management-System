@@ -60,3 +60,16 @@ The `Buy_2` class represents the interface where users can confirm their purchas
 - Users can exit the application by clicking the "Exit" button.
 
 **Note:** The functionality for dynamically calculating the final price based on the quantity entered is currently commented out in the code. You may uncomment and implement it as needed.
+
+
+
+<img src="Library Management System.png">
+
+---> MAR-AM Library Management System
+
+**Description:**
+The MAR-AM Library Management System is a Python-based application built using the Tkinter library for creating a user-friendly graphical interface. This system allows library administrators to efficiently manage library membership information, track book details, and perform CRUD operations on the library database.
+
+Users can add, update, and delete member information, including details such as member type, name, address, contact information, and book transactions. The application provides a convenient interface for entering book details, such as title, author name, edition, price, and purchase date. Additionally, it includes features for browsing and selecting books from a pre-defined list, automating the population of book details when a selection is made.
+
+With a well-organized layout and intuitive user interface, the MAR-AM Library Management System aims to streamline library operations, enhance data management, and improve overall efficiency in library administration.
