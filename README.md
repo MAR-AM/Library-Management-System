@@ -37,3 +37,26 @@ The `index` class represents the main interface of the MAR-AM Book Store applica
 - The user can browse through the available books displayed on the interface.
 - Upon clicking the "Buy Now" button of a book, the user is redirected to the `Buy_2` interface to complete the purchase process.
 - The interface provides a seamless and visually appealing experience for users to explore and purchase books from the MAR-AM Book Store.
+
+
+<img src="buy-now.png">
+
+--> Library Management System - MAR-AM Book Store Purchase Confirmation
+
+**Description:**
+The `Buy_2` class represents the interface where users can confirm their purchase details before completing the order in the MAR-AM Book Store application. This interface is designed to collect customer information and display the final price of the order.
+
+**Key Features:**
+1. **Title Label:** Displays the title of the application, "MAR-AM Book Store", at the top of the interface.
+2. **Purchase Confirmation Form:** Includes fields to collect customer information such as member type, first name, last name, gender, address, postal code, code CIN, mobile number, and book title. Users can select member type and gender from dropdown menus.
+3. **Confirmation Button:** Allows users to confirm their purchase details. Upon clicking this button, the order information is saved to the database, and a success message is displayed.
+4. **Exit Button:** Allows users to exit the application.
+5. **Final Price Display:** Shows the final price of the order based on the quantity entered by the user.
+
+**Functionality:**
+- Users can enter their personal information and select member type and gender from dropdown menus.
+- The "Confirmation" button saves the order details to the database and displays a success message upon successful completion.
+- The final price of the order is dynamically calculated based on the quantity entered by the user.
+- Users can exit the application by clicking the "Exit" button.
+
+**Note:** The functionality for dynamically calculating the final price based on the quantity entered is currently commented out in the code. You may uncomment and implement it as needed.
