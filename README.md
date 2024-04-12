@@ -1,4 +1,6 @@
 # Library-Management-System
+Library Management System is a Python-based application built using the Tkinter library for creating a user-friendly graphical interface. This system allows library administrators to efficiently manage library membership information, track book details, and perform CRUD operations on the library database.
+
 <img src="User-Authentication.png">
 
 -->  Library Management System - User Authentication
